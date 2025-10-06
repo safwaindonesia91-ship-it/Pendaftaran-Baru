@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Safwa University of Indonesia (SUI)</title>
+  <meta name="description" content="Safwa University of Indonesia — Blended learning, inklusif, berbasis nilai. Program RPL 1 & 2 tahun, asesmen kompetensi, riset & pengabdian.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f172a;--bg-2:#111827;--pri:#0ea5e9;--pri-700:#0369a1;--acc:#22c55e;--text:#0f172a;
+      --muted:#6b7280;--card:#ffffff;--border:#e5e7eb;--soft:#f7f9fc;
+    }
+    *{box-sizing:border-box} html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,'Apple Color Emoji','Segoe UI Emoji',sans-serif;color:var(--text);scroll-behavior:smooth}
+    a{color:var(--pri);text-decoration:none} a:hover{text-decoration:underline}
+    .container{max-width:1120px;margin:0 auto;padding:0 20px}
+    header{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,.9);backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--border)}
+    .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .brand{display:flex;gap:12px;align-items:center}.brand img{height:36px;width:auto}
+    .nav a.btn{background:var(--pri);color:#fff;padding:10px 16px;border-radius:10px;font-weight:600}.nav a.btn:hover{background:var(--pri-700);text-decoration:none}
+    .hero{background:radial-gradient(1200px 500px at 80% -20%, rgba(14,165,233,.15), transparent 60%),linear-gradient(180deg,#fff, #f9fafb 70%, #fff);padding:72px 0 56px}
+    .hero h1{font-size:2.2rem;line-height:1.2;margin:0 0 12px}.hero p{color:#374151;max-width:760px;margin:0 0 24px}
+    .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:8px;background:var(--pri);color:#fff;padding:12px 18px;border-radius:12px;font-weight:700;border:none;cursor:pointer}
+    .btn.secondary{background:#111827;color:#fff}.btn.ghost{background:#fff;color:var(--text);border:1px solid var(--border)}
+    .badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.badge{font-size:12px;padding:6px 10px;border-radius:999px;background:#ecfeff;border:1px solid #bae6fd;color:#075985}
+    section{padding:56px 0}.grid{display:grid;gap:20px}
+    @media(min-width:900px){.grid-3{grid-template-columns:repeat(3,1fr)} .grid-2{grid-template-columns:repeat(2,1fr)}}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px}
+    .card h3{margin:4px 0 10px}.muted{color:var(--muted)}.list{margin:10px 0 0 0;padding:0 0 0 18px}.list li{margin:6px 0}
+    .table{width:100%;border-collapse:collapse;font-size:15px}.table th,.table td{border:1px solid var(--border);padding:10px;text-align:left}.table thead th{background:#f1f5f9}
+    .pill{display:inline-block;background:#f0fdf4;border:1px solid #bbf7d0;color:#065f46;padding:4px 8px;border-radius:999px;font-size:12px}
+    .accent{background:var(--soft);border:1px dashed var(--border);border-radius:16px;padding:16px}
+    .footer{background:#0b1220;color:#cbd5e1;padding:40px 0;font-size:14px}.footer a{color:#93c5fd}.copyright{border-top:1px solid #1f2937;margin-top:20px;padding-top:16px;color:#9ca3af}
+    :target{scroll-margin-top:84px}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"CollegeOrUniversity",
+    "name":"Safwa University of Indonesia",
+    "url":"https://your-domain.github.io/sui-site",
+    "email":"safwa.university@gmail.com",
+    "description":"Blended learning • inklusif • berbasis nilai. Program RPL percepatan 1 & 2 tahun.",
+    "sameAs":["https://t.me/safwauniversity"],
+    "address":{"@type":"PostalAddress","addressCountry":"ID"}
+  }
+  </script>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand">
+      <img src="https://drive.google.com/file/d/1Wpv8XPuqOrh1_jFTI4hR3SgZQA-FSEYC/view?usp=drive_link" alt="SUI Logo">
+      <strong>Safwa University of Indonesia</strong>
+    </div>
+    <nav style="display:flex;gap:16px;align-items:center">
+      <a href="#tentang">Tentang</a>
+      <a href="#program">Program</a>
+      <a href="#biaya">Biaya</a>
+      <a href="#daftar" class="btn">Daftar</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Safwa University of Indonesia (SUI): Model Inovasi Pendidikan Inklusif dan Riset Berbasis Komunitas</h1>
+    <p>SUI mendampingi Para Pendidik dan Pengajar dari berbagai wilayah—termasuk 3T—untuk meraih gelar melalui <b>Rekognisi Pembelajaran Lampau (RPL)</b> dan kurikulum vokasional-berbasis riset.</p>
+    <div class="cta">
+      <a class="btn" href="#daftar">Daftar Sekarang</a>
+      <a class="btn ghost" href="#program">Lihat Program</a>
+    </div>
+    <div class="badges">
+      <span class="badge">RPL 1 & 2 Tahun</span>
+      <span class="badge">Pembimbingan Skripsi</span>
+      <span class="badge">Jejaring Industri & Riset</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container grid grid-3">
+    <div class="card"><h3>Visi</h3><p class="muted">Universitas inklusif yang melahirkan SDM berintegritas, kompeten, dan adaptif.</p></div>
+    <div class="card"><h3>Misi</h3><ul class="list"><li>Pendidikan vokasional & riset terapan.</li><li>RPL & asesmen kompetensi.</li><li>Kolaborasi industri–masyarakat.</li></ul></div>
+    <div class="card"><h3>Nilai</h3><p class="muted">Keilmuan • Kejujuran • Kemandirian • Kemaslahatan</p></div>
+  </div>
+</section>
+
+<section id="tentang">
+  <div class="container grid grid-2">
+    <div>
+      <h2>Tentang SUI</h2>
+      <p>Safwa University of Indonesia (SUI) adalah Program Pendidikan dan Riset yang berkomitmen pada pengembangan sumber daya manusia di Indonesia, khususnya para pengajar Muda terutama di daerah 3T dan lembaga pendidikan berbasis agama seperti pondok pesantren.</p> 
+      <p>SUI menjadi inisiator program Rekognisi Pembelajaran Lampau (RPL) dan asesmen kompetensi untuk guru dan tenaga pendidik non-gelar.</p>
+      <p>Dengan dukungan internasional, SUI telah terdaftar dalam sistem Erasmus+ dan Solidarity Corps Uni Eropa, serta aktif mempublikasikan riset melalui Zenodo dan OpenAIRE.</p> 
+      <p>SUI fokus pada blended learning, RPL, dan proyek pengabdian. Skema percepatan akademik tersedia bagi profesional & pendidik melalui pengakuan capaian belajar dan pengalaman kerja.</p>
+      <div class="accent"><strong>Catatan:</strong> Penyelenggaraan RPL mengacu pada regulasi Kemendikbudristek tentang RPL.</div>
+    </div>
+    <div class="card">
+      <h3>Kontak</h3>
+      <p>Email: <a href="mailto:safwauniversityofindonesia@gmail.com">safwauniversityofindonesia@gmail.com</a><br>
+         WA: <a href="https://wa.me/6283177828139" target="_blank" rel="noopener">+62 831 7782 8139</a><br>
+         Telegram: <a href="https://t.me/+uITksA4ZTg83NWE1" target="_blank" rel="noopener">@Safwa_University_of_Indonesia</a></p>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <a class="btn ghost" href="https://zenodo.org/communities/183915371" target="_blank" rel="noopener">Journal Publikasi</a>
+        <a class="btn ghost" href="docs/Panduan_RPL_2025.pdf" target="_blank" rel="noopener">Panduan RPL 2025 (PDF)</a>
+        <a class="btn ghost" href="https://orcid.org/0009-0001-7386-3769" target="_blank" rel="noopener">ORCID Safwa University of Indonesia</a>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="program">
+  <div class="container">
+    <h2>Program Studi & Jalur RPL</h2>
+    <div class="grid grid-2" style="margin-top:12px">
+      <div class="card">
+        <h3>RPL 1 Tahun <span class="pill">Percepatan</span></h3>
+        <p class="muted">Bahasa Indonesia penuh, fokus percepatan tugas akhir dengan pendampingan intensif.</p>
+        <ul class="list"><li>Rekognisi portofolio & pengalaman kerja.</li><li>Perkuliahan asinkron + sinkron.</li><li>Bimbingan skripsi & publikasi sederhana.</li></ul>
+      </div>
+      <div class="card">
+        <h3>RPL 2 Tahun</h3>
+        <p class="muted">Alur reguler dua tahun dengan asesmen berkala dan proyek terapan.</p>
+        <ul class="list"><li>Penguatan teori & praktik profesional.</li><li>Magang/PKL sesuai bidang.</li><li>Uji kelayakan & yudisium akhir.</li></ul>
+      </div>
+    </div>
+    <div class="grid grid-3" style="margin-top:20px">
+      <div class="card"><h3>Syarat Utama</h3><ul class="list"><li>Ijazah SLTA/Paket C ≥4 thn atau riwayat kuliah/DO.</li><li>Portofolio relevan & dokumen pendukung.</li><li>Lulus uji kelayakan.</li></ul></div>
+      <div class="card"><h3>Model Belajar</h3><ul class="list"><li>Blended learning (LMS + tatap muka terbatas).</li><li>Project/Product-based.</li><li>Asesmen RPL: wawancara, verifikasi bukti.</li></ul></div>
+      <div class="card"><h3>Dokumen Pendaftaran</h3><ul class="list"><li>KTP, Ijazah & Transkrip (jika ada).</li><li>Surat keterangan kerja/mengajar.</li><li>Pas foto & bukti bayar pendaftaran.</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section id="biaya" style="background:#fafafa">
+  <div class="container">
+    <h2>Biaya & Skema Pembayaran</h2>
+    <p class="muted">Estimasi biaya; dapat berubah mengikuti kebijakan terbaru. Skema angsuran & beasiswa tersedia.</p>
+    <div class="card" style="overflow:auto">
+      <table class="table">
+        <thead><tr><th>Komponen</th><th>RPL 2 Tahun</th><th>RPL 1 Tahun</th></tr></thead>
+        <tbody>
+          <tr><td>Pendaftaran</td><td>Rp250.000</td><td>Rp250.000</td></tr>
+          <tr><td>Prakuliah</td><td>Rp750.000</td><td>Rp750.000</td></tr>
+          <tr><td>Biaya RPL</td><td>Rp7.500.000</td><td>Rp7.500.000</td></tr>
+          <tr><td>SPP</td><td>Rp210.000 × 24 bln</td><td>Rp370.000 × 12 bln</td></tr>
+          <tr><td>UAS</td><td>Rp500.000 × 4 smt</td><td>Rp500.000 × 2 smt</td></tr>
+          <tr><td>KKN</td><td>Rp750.000</td><td>Rp750.000</td></tr>
+          <tr><td>Bimbingan Skripsi</td><td>Rp500.000</td><td>Rp500.000</td></tr>
+          <tr><td>Ujian Munaqosyah</td><td>Rp500.000</td><td>Rp500.000</td></tr>
+          <tr><td>Yudisium</td><td>Rp500.000</td><td>Rp500.000</td></tr>
+          <tr style="font-weight:700;background:#f8fafc"><td>Total Perkiraan</td><td>± Rp17.790.000</td><td>± Rp16.190.000</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="grid grid-2" style="margin-top:16px">
+      <div class="card">
+        <h3>Aturan Pembayaran</h3>
+        <ul class="list"><li>SPP dibayar tanggal 1–10 setiap bulan.</li><li>UAS per 6 bulan; biaya lain mengikuti kalender.</li><li>Pembayaran: <b>BSI a.n. Yayasan Cahaya Ilmu Safwa</b> – <b>722 0377 932</b>.</li></ul>
+      </div>
+      <div class="card">
+        <h3>Beasiswa & Angsuran</h3>
+        <p class="muted">Skema potongan kolaborasi mitra & beasiswa internal tersedia bagi guru/pendidik & pekerja sektor sosial.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="daftar">
+  <div class="container grid grid-2">
+    <div>
+      <h2>Daftar Sekarang</h2>
+      <p>Isi formulir & unggah berkas. Tim kami akan memverifikasi lalu menghubungi kamu untuk asesmen RPL dan penentuan jalur studi.</p>
+      <div class="accent">
+        <ul class="list"><li>Estimasi verifikasi berkas: 2–5 hari kerja.</li><li>Wawancara & pemetaan RPL: online terjadwal.</li><li>Pengumuman kelayakan & matrikulasi awal.</li></ul>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px">
+        <a class="btn" href="https://forms.gle/5Mywp5yQwQSZbamC7" target="_blank" rel="noopener">Isi Formulir</a>
+        <a class="btn secondary" href="https://wa.me/6283177828139" target="_blank" rel="noopener">Tanya Admin</a>
+        <a class="btn secondary" href="https://chatgpt.com/g/g-68d5b9c669c08191a513e9d75bc85c4e-abang-oky-ai" target="_blank" rel="noopener">Tanya Admin Abang AI</a>
+      </div>
+    </div>
+    <div class="card">
+      <h3>FAQ Singkat</h3>
+      <p><strong>Apakah RPL diakui?</strong><br>Penyetaraan capaian belajar mengacu pada regulasi Kemendikbudristek tentang RPL.</p>
+      <p><strong>Apakah bisa sambil kerja?</strong><br>Bisa. Skema blended learning fleksibel dengan pertemuan sinkron terjadwal.</p>
+      <p><strong>Bagaimana penilaian?</strong><br>Gabungan tugas proyek, asesmen portofolio, dan ujian akhir.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="grid grid-3">
+      <div>
+        <h3 style="margin-top:0;color:#e2e8f0">Safwa University of Indonesia</h3>
+        <p>Blended learning • inklusif • berbasis nilai.</p>
+        <p><a href="mailto:safwa.university@gmail.com">safwa.university@gmail.com</a><br>
+           <a href="https://wa.me/6283177828139" target="_blank" rel="noopener">+62 831 7782 8139</a></p>
+      </div>
+      <div>
+        <h4 style="color:#e2e8f0">Navigasi</h4>
+        <p><a href="#tentang">Tentang</a> · <a href="#program">Program</a> · <a href="#biaya">Biaya</a> · <a href="#daftar">Daftar</a></p>
+      </div>
+      <div>
+        <h4 style="color:#e2e8f0">Dokumen</h4>
+        <p><a href="docs/SUI_Profile.pdf" target="_blank" rel="noopener">Profil Kampus (PDF)</a><br>
+           <a href="docs/Panduan_RPL_2025.pdf" target="_blank" rel="noopener">Panduan RPL 2025 (PDF)</a></p>
+      </div>
+    </div>
+    <div class="copyright">© <span id="y"></span> Safwa University of Indonesia. All rights reserved.</div>
+  </div>
+</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
